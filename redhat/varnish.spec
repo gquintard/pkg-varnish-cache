@@ -18,7 +18,7 @@ BuildRequires: libedit-devel
 BuildRequires: ncurses-devel
 BuildRequires: pcre-devel
 BuildRequires: pkgconfig
-BuildRequires: python3-sphinx
+BuildRequires: python%{?!amzn:3}-sphinx
 
 Requires: gcc
 Requires: logrotate
